@@ -1,7 +1,7 @@
 # Lesson — L03 Supervised Learning Foundations
 
-> **Chapter 3 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 4.*
-> Marcus's question after Sarah's Friday presentation — *"Can you train your own model on NorthStar data?"* — is the brief for the whole week. Sarah has `northstar_churn.csv`: 10,000 customers, 11 features, one target column (`churned`), and Friday to ship a working classifier.
+> **Chapter 3 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 4.*
+> Marcus's question after Sarah's end-of-day presentation — *"Can you train your own model on NorthStar data?"* — is the brief for the day. Sarah has `northstar_churn.csv`: 10,000 customers, 11 features, one target column (`churned`), and one day to ship a working classifier.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back for the takeaways, the threshold-choice checklist, the review questions, and the course map.
 
@@ -11,7 +11,7 @@ This document is a **short reference** — the lesson itself is taught in the no
 
 | Stage | Where to go |
 |---|---|
-| **Pre-class** | `pre-class.md` + `notebooks/01_monday_morning.ipynb` |
+| **Pre-class** | `pre-class.md` + `notebooks/01_morning_briefing.ipynb` |
 | **In-class — Part 1: Preprocessing** | `notebooks/02_preprocessing.ipynb` |
 | **In-class — Part 2: Train / Validate** | `notebooks/03_train_validate.ipynb` |
 | **In-class — Part 3: Metrics & Threshold** | `notebooks/04_metrics_threshold.ipynb` |
@@ -24,7 +24,7 @@ The notebooks are the spine. Run them in order. Come back here for the consolida
 
 ## Overview
 
-Marcus's L02-closing question — *can you build us a model from NorthStar's own data?* — sets up the first model Sarah truly owns. By Friday she will hold three new tools: a **preprocessing pipeline** (so messy real-world CSVs become numbers a model can learn from, without leakage), **train/validate discipline** (cross-validation, not single-split luck), and **business-aware threshold choice** (the decision that converts a probability into who-gets-called). Every later supervised model in this course is built on the same scaffolding.
+Marcus's L02-closing question — *can you build us a model from NorthStar's own data?* — sets up the first model Sarah truly owns. By the end of the day she will hold three new tools: a **preprocessing pipeline** (so messy real-world CSVs become numbers a model can learn from, without leakage), **train/validate discipline** (cross-validation, not single-split luck), and **business-aware threshold choice** (the decision that converts a probability into who-gets-called). Every later supervised model in this course is built on the same scaffolding.
 
 ---
 
@@ -153,6 +153,6 @@ L03's scaffolding — pipelines, train/validate splits, precision/recall/F1, thr
 
 ---
 
-> *"This is the first model we own. Can you make it better next week?"* — Marcus, after Sarah's Friday presentation.
+> *"This is the first model we own. Can you make it better tomorrow?"* — Marcus, after Sarah's end-of-day presentation.
 >
 > That question — *how do I improve this model?* — is the engine of **L04 (Supervised Learning, Advanced)**.
